@@ -901,5 +901,16 @@ footer span a:hover {
     width: 100%;
   }
   .container .contactForm {
+    
     padding: 50px 30px;
+    
   }
+
+  @media (max-width: 500px) {
+  .contact{
+    padding: 25px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+}
