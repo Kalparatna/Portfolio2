@@ -906,11 +906,28 @@ footer span a:hover {
     
   }
 
-  @media (max-width: 500px) {
-  .contact{
-    padding: 25px;
-  }
-  .contact {
-    flex-direction: column;
-  }
+@media (max-width: 500px) {
+    .contact{
+        padding:30px;
+    }
+    .contact .contactForm{
+        font-size: 10pxpx;
+    }
+    .txt .sci {
+        font-size: 19px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact {
+        margin: 0;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
 }
